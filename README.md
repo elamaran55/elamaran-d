@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F3F,100:00C896&height=220&section=header&text=ELAMARAN%20D&fontSize=65&fontColor=ffffff&desc=Robotics%20%26%20Automation%20Engineer&descSize=19&animation=fadeIn" width="100%"/>
+<img src="header-banner.svg" width="100%"/>
 
 <br/>
 
@@ -10,8 +10,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
 [![Gmail](https://img.shields.io/badge/Gmail-amudhanmaran44-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amudhanmaran44@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamaran55)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=elamaran55.elamaran55&color=00C896&style=for-the-badge&label=Profile+Views)](https://github.com/elamaran55)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_GITHUB_USERNAME.YOUR_GITHUB_USERNAME&color=00C896&style=for-the-badge&label=Profile+Views)](https://github.com/YOUR_GITHUB_USERNAME)
 
 </div>
 
@@ -93,7 +93,7 @@ class Elamaran:
 ### 🦾 TDCR — Tendon Driven Continuum Robot Arm
 > **TECHgium 9th Edition Finalist** &nbsp;·&nbsp; *Physical Robot · Custom Kinematics*
 
-<img align="right" src="assets/continuum-arm.svg" width="230" alt="animated 6-section continuum arm bending"/>
+<img align="right" src="continuum-arm.svg" width="230" alt="animated 6-section continuum arm bending"/>
 
 - Built a **6-section physical arm** with **24 ST3020 serial bus servos** — all custom-wired
 - Implemented **constant-curvature kinematics** using 4×4 homogeneous transforms
@@ -112,7 +112,7 @@ class Elamaran:
 ### 🤖 Café Butler Robot
 > **ROS 2 · Nav2 · Gazebo** &nbsp;·&nbsp; *Full Simulation + Web Dashboard*
 
-<img align="right" src="assets/cafe-butler.svg" width="230" alt="animated robot route between kitchen, tables, and home dock"/>
+<img align="right" src="cafe-butler.svg" width="230" alt="animated robot route between kitchen, tables, and home dock"/>
 
 - **7-scenario FSM**: Home → Kitchen → Table(s) → Home with timeouts & cancellations
 - Full **Nav2 + SLAM** integration in a custom Gazebo café world
@@ -128,7 +128,7 @@ class Elamaran:
 ### 📦 Vision-Based HDPE Segregation
 > **OpenCV · Raspberry Pi** &nbsp;·&nbsp; *Pick & Place · Computer Vision*
 
-<img align="right" src="assets/vision-sort.svg" width="230" alt="animated camera detecting and sorting HDPE on a conveyor"/>
+<img align="right" src="vision-sort.svg" width="230" alt="animated camera detecting and sorting HDPE on a conveyor"/>
 
 - Camera-driven pick-and-place on **Raspberry Pi** for plastic sorting
 - **MobileNet SSD v2** object detection for HDPE identification
@@ -143,7 +143,7 @@ class Elamaran:
 ### 📚 AGV Library Assistant Robot
 > **ESP32 · Autonomous Navigation** &nbsp;·&nbsp; *PID · WiFi · Browser UI*
 
-<img align="right" src="assets/agv-library.svg" width="230" alt="animated line-following AGV carrying books between shelves"/>
+<img align="right" src="agv-library.svg" width="230" alt="animated line-following AGV carrying books between shelves"/>
 
 - **Autonomous navigation** via IR line-following with PID control
 - **BTS7960 motor drivers** + ESP32 dual-core for real-time response
@@ -161,7 +161,7 @@ class Elamaran:
 ### 🐝 SwarmMark — Multi-Robot Swarm Coverage
 > **CoIN Hackathon 2026** &nbsp;·&nbsp; *ROS 2 · SLAM · Voronoi Partitioning*
 
-<img align="right" src="assets/swarm-coverage.svg" width="230" alt="animated 5-robot swarm patrolling Voronoi coverage cells"/>
+<img align="right" src="swarm-coverage.svg" width="230" alt="animated 5-robot swarm patrolling Voronoi coverage cells"/>
 
 - **5-robot ROS 2 swarm** for autonomous factory floor marking
 - **Auction-based Voronoi partitioning** for dynamic area coverage
@@ -232,6 +232,6 @@ class Elamaran:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,50:003366,100:00C896&height=130&section=footer&text=Let%27s%20build%20something%20that%20moves.&fontSize=20&fontColor=ffffff&fontAlignY=70&animation=fadeIn" width="100%"/>
+<img src="footer-banner.svg" width="100%"/>
 
 </div>
