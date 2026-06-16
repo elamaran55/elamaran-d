@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F3F,50:0066CC,100:00C896&height=220&section=header&text=ELAMARAN%20D&fontSize=65&fontColor=ffffff&fontAlignY=45&desc=Robotics%20%26%20Automation%20Engineer&descSize=19&descAlignY=65&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F3F,100:00C896&height=220&section=header&text=ELAMARAN%20D&fontSize=65&fontColor=ffffff&desc=Robotics%20%26%20Automation%20Engineer&descSize=19&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -10,8 +10,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
 [![Gmail](https://img.shields.io/badge/Gmail-amudhanmaran44-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amudhanmaran44@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_GITHUB_USERNAME.YOUR_GITHUB_USERNAME&color=00C896&style=for-the-badge&label=Profile+Views)](https://github.com/YOUR_GITHUB_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamaran55)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=elamaran55.elamaran55&color=00C896&style=for-the-badge&label=Profile+Views)](https://github.com/elamaran55)
 
 </div>
 
@@ -72,7 +72,6 @@ class Elamaran:
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![ST3020](https://img.shields.io/badge/ST3020%20Servos-FFB300?style=for-the-badge&logoColor=black)
-![TTL](https://img.shields.io/badge/TTL%20Serial%201Mbps-555555?style=for-the-badge&logoColor=white)
 
 ### 👁️ Computer Vision
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -94,7 +93,7 @@ class Elamaran:
 ### 🦾 TDCR — Tendon Driven Continuum Robot Arm
 > **TECHgium 9th Edition Finalist** &nbsp;·&nbsp; *Physical Robot · Custom Kinematics*
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="230" alt="robot arm animation"/>
+<img align="right" src="assets/continuum-arm.svg" width="230" alt="animated 6-section continuum arm bending"/>
 
 - Built a **6-section physical arm** with **24 ST3020 serial bus servos** — all custom-wired
 - Implemented **constant-curvature kinematics** using 4×4 homogeneous transforms
@@ -113,7 +112,7 @@ class Elamaran:
 ### 🤖 Café Butler Robot
 > **ROS 2 · Nav2 · Gazebo** &nbsp;·&nbsp; *Full Simulation + Web Dashboard*
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="230" alt="navigation animation"/>
+<img align="right" src="assets/cafe-butler.svg" width="230" alt="animated robot route between kitchen, tables, and home dock"/>
 
 - **7-scenario FSM**: Home → Kitchen → Table(s) → Home with timeouts & cancellations
 - Full **Nav2 + SLAM** integration in a custom Gazebo café world
@@ -129,7 +128,7 @@ class Elamaran:
 ### 📦 Vision-Based HDPE Segregation
 > **OpenCV · Raspberry Pi** &nbsp;·&nbsp; *Pick & Place · Computer Vision*
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="230" alt="vision animation"/>
+<img align="right" src="assets/vision-sort.svg" width="230" alt="animated camera detecting and sorting HDPE on a conveyor"/>
 
 - Camera-driven pick-and-place on **Raspberry Pi** for plastic sorting
 - **MobileNet SSD v2** object detection for HDPE identification
@@ -144,7 +143,7 @@ class Elamaran:
 ### 📚 AGV Library Assistant Robot
 > **ESP32 · Autonomous Navigation** &nbsp;·&nbsp; *PID · WiFi · Browser UI*
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="230" alt="agv animation"/>
+<img align="right" src="assets/agv-library.svg" width="230" alt="animated line-following AGV carrying books between shelves"/>
 
 - **Autonomous navigation** via IR line-following with PID control
 - **BTS7960 motor drivers** + ESP32 dual-core for real-time response
@@ -162,7 +161,7 @@ class Elamaran:
 ### 🐝 SwarmMark — Multi-Robot Swarm Coverage
 > **CoIN Hackathon 2026** &nbsp;·&nbsp; *ROS 2 · SLAM · Voronoi Partitioning*
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="230" alt="swarm animation"/>
+<img align="right" src="assets/swarm-coverage.svg" width="230" alt="animated 5-robot swarm patrolling Voronoi coverage cells"/>
 
 - **5-robot ROS 2 swarm** for autonomous factory floor marking
 - **Auction-based Voronoi partitioning** for dynamic area coverage
@@ -190,16 +189,6 @@ class Elamaran:
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
-
----
-
-## 🗺️ Contribution Activity
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&bg_color=0D1117&color=00C896&line=0066FF&point=ffffff&area=true&hide_border=true)
-
-</div>
 
 ---
 
